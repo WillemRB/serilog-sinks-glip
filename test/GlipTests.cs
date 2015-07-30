@@ -14,7 +14,7 @@ namespace Serilog.Sinks.Glip.Tests
         [TestInitialize]
         public void Initialize()
         {
-            var webhook = Guid.Parse("efc66d30-2f14-4acc-b07b-f27e2cf69cd7");
+            var webhook = Guid.Parse("00000000-0000-0000-0000-000000000000");
 
             _logger = new LoggerConfiguration()
                 .MinimumLevel.Verbose()
