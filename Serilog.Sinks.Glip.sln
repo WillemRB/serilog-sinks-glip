@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Glip", "src\Serilog.Sinks.Glip.csproj", "{487755B3-AE8A-4BF9-BE9F-10DA11BFD9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Glip.Tests", "test\Serilog.Sinks.Glip.Tests.csproj", "{C26B58C2-DC94-46C9-B44C-D1F17F47CE15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487755B3-AE8A-4BF9-BE9F-10DA11BFD9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487755B3-AE8A-4BF9-BE9F-10DA11BFD9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487755B3-AE8A-4BF9-BE9F-10DA11BFD9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487755B3-AE8A-4BF9-BE9F-10DA11BFD9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26B58C2-DC94-46C9-B44C-D1F17F47CE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26B58C2-DC94-46C9-B44C-D1F17F47CE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26B58C2-DC94-46C9-B44C-D1F17F47CE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26B58C2-DC94-46C9-B44C-D1F17F47CE15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
